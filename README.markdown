@@ -19,46 +19,60 @@ Setting up a new development system for my use at Carbon Five still requires a f
 - install [mou](http://mouapp.com/)
 - install a GUI git client
 - generate and add a public key to github
-  ```sh
-  ssh-keygen -t rsa -C "your_email@youremail.com"
-  pbcopy < ~/.ssh/id_rsa.pub
-  ```
+
+    ```sh
+    ssh-keygen -t rsa -C "your_email@youremail.com"
+    pbcopy < ~/.ssh/id_rsa.pub
+    ```
+  
 - Set zsh as my default shell:
-`chsh -s /bin/zsh`
+
+    `chsh -s /bin/zsh`
+
 - install and bootstrap dotfiles
-  ```sh
-  git clone https://github.com/jonah-carbonfive/dotfiles.git ~/.dotfiles
-  cd ~/.dotfiles
-  script/bootstrap
-  osx/set-defaults.sh
-  sublime2/setup
-  ```
+
+    ```sh
+    git clone https://github.com/jonah-carbonfive/dotfiles.git ~/.dotfiles
+    cd ~/.dotfiles
+    script/bootstrap
+    osx/set-defaults.sh
+    sublime2/setup
+    ```
+
 - install a current ruby
-  ```sh
-  rbenv install -l
-  rbenv install 1.9.3-p327
-  rbenv global 1.9.3-p327
-  ```
+
+    ```sh
+    rbenv install -l
+    rbenv install 1.9.3-p327
+    rbenv global 1.9.3-p327
+    ```
+
 - install postgres
-  ```sh
-  brew install postgres
-  initdb /usr/local/var/postgres -E utf8
-  mkdir -p ~/Library/LaunchAgents
-  cp /usr/local/Cellar/postgresql/9.2.1/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
-  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
-  ```
+
+    ```sh
+    brew install postgres
+    initdb /usr/local/var/postgres -E utf8
+    mkdir -p ~/Library/LaunchAgents
+    cp /usr/local/Cellar/postgresql/9.2.1/homebrew.mxcl.postgresql.plist ~/Library/LaunchAgents/
+    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+    ```
+
 - install redis
-  ```sh
-  brew install redis
-  ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
-  launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
-  ```
+
+    ```sh
+    brew install redis
+    ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+    ```
+
 - install useful gems in global ruby
-  ```sh
-  gem install bundler
-  gem install lunchy
-  rbenv rehash
-  ```
+
+    ```sh
+    gem install bundler
+    gem install lunchy
+    rbenv rehash
+    ```
+
 - update `~/.dotfiles/README.markdown` with anything missing from the list above
 - get some work done
 
