@@ -1,0 +1,1 @@
+alias pod='nocorrect pod'

@@ -83,7 +83,9 @@ Setting up a new development system for my use at Carbon Five still requires a f
     ```sh
     gem install bundler
     gem install lunchy
+    gem install cocoapods
     rbenv rehash
+    pod setup
     ```
 
 - update `~/.dotfiles/README.markdown` with anything missing from the list above
