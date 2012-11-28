@@ -29,15 +29,28 @@ Setting up a new development system for my use at Carbon Five still requires a f
 
     `chsh -s /bin/zsh`
 
-- install and bootstrap dotfiles
+- dotfiles
 
-    ```sh
-    git clone https://github.com/jonah-carbonfive/dotfiles.git ~/.dotfiles
-    cd ~/.dotfiles
-    script/bootstrap
-    osx/set-defaults.sh
-    sublime2/setup
-    ```
+  - install
+
+      ```sh
+      git clone https://github.com/jonah-carbonfive/dotfiles.git ~/.dotfiles
+      cd ~/.dotfiles
+      ```
+
+  - update git username
+
+      ```sh
+      open git/gitconfig.symlink
+      ```
+
+  - apply configuration
+  
+      ```sh
+      script/bootstrap
+      osx/set-defaults.sh
+      sublime2/setup
+      ```
 
 - install a current ruby
 
