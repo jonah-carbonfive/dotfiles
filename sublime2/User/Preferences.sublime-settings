@@ -1,4 +1,22 @@
 {
-  "theme": "Soda Dark.sublime-theme",
-  "save_on_focus_lost": true
+	"drawWhiteSpace": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"matchBracketsAngle": true,
+	"matchBracketsBraces": true,
+	"matchBracketsSquare": true,
+	"rulers":
+	[
+		80
+	],
+	"save_on_focus_lost": true,
+	"show_minimap": false,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trimTrailingWhiteSpaceOnSave": true,
+	"vintage_start_in_command_mode": true
 }

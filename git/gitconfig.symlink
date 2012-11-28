@@ -5,8 +5,8 @@
 [hub]
         protocol = https
 [user]
-        name = Jonah Williams
-        email = jonah@carbonfive.com
+	name = Jonah Williams
+	email = jonah@carbonfive.com
 [credential]
         helper = osxkeychain
 [alias]
@@ -25,7 +25,7 @@
 [apply]
         whitespace = nowarn
 [mergetool]
-        keepBackup = false
+	keepBackup = false
 [difftool]
         prompt = false
 [help]
