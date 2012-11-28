@@ -8,14 +8,16 @@ Setting up a new development system for my use at Carbon Five still requires a f
   - set ignored directories (DropBox, Projects, anything else already backed up outside TimeMachine)
 - install XCode
 - install XCode command line tools
-- install (brew)[http://mxcl.github.com/homebrew/]
-- install (sublime)[www.sublimetext.com/2]
-  - install (sublime package manager)[http://wbond.net/sublime_packages/package_control]
+- install [brew](http://mxcl.github.com/homebrew/)
+- install [sublime](www.sublimetext.com/2)
+  - install [sublime package manager](http://wbond.net/sublime_packages/package_control)
 - install DropBox
 - install Chrome
 - install Firefox
 - install a password manager
 - install chat clients
+- install [mou](http://mouapp.com/)
+- install a GUI git client
 - generate and add a public key to github
   ```sh
   ssh-keygen -t rsa -C "your_email@youremail.com"
