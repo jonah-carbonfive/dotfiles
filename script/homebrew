@@ -17,3 +17,9 @@ fi
 
 # Install grc and coreutils
 brew install grc coreutils
+
+# OS X ships with git version 1.7.10.2 (Apple Git-33), install 1.8.x
+brew install git
+
+# Install rbenv and ruby-build to install and manage Ruby versions
+brew install rbenv ruby-build

@@ -5,8 +5,8 @@
 [hub]
         protocol = https
 [user]
-        name = Zach Holman
-        email = zach@zachholman.com
+        name = Jonah Williams
+        email = jonah@carbonfive.com
 [credential]
         helper = osxkeychain
 [alias]

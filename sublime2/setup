@@ -10,3 +10,7 @@ ln -s "$ZSH/sublime2/User" "$sublime_dir"
 # Grab the Soda theme
 cd "$sublime_dir"
 git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+
+# Install Package Control
+mkdir ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages
+curl -o ~/Library/Application\ Support/Sublime\ Text\ 2/Installed\ Packages/Package\ Control.sublime-package http://sublime.wbond.net/Package%20Control.sublime-package
