@@ -1,3 +1,6 @@
+# RubyMine project configuration settings
+.idea
+
 .DS_Store
 .svn
 *~
