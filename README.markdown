@@ -6,8 +6,8 @@ Setting up a new development system for my use at Carbon Five still requires a f
 - turn on FileVault
 - setup TimeMachine
   - set ignored directories (DropBox, Projects, anything else already backed up outside TimeMachine)
-- install XCode
-- install XCode command line tools
+- install Xcode
+- install Xcode command line tools
 - install [brew](http://mxcl.github.com/homebrew/)
 - install [sublime](www.sublimetext.com/2)
   - install [sublime package manager](http://wbond.net/sublime_packages/package_control)
@@ -52,12 +52,10 @@ Setting up a new development system for my use at Carbon Five still requires a f
       sublime2/setup
       ```
 
-- install a current ruby
+- install RVM and a current ruby
 
     ```sh
-    rbenv install -l
-    rbenv install 1.9.3-p327
-    rbenv global 1.9.3-p327
+    curl -L https://get.rvm.io | bash -s stable
     ```
 
 - install postgres
@@ -84,10 +82,9 @@ Setting up a new development system for my use at Carbon Five still requires a f
     gem install bundler
     gem install lunchy
     gem install cocoapods
-    rbenv rehash
     pod setup
     ```
-
+    
 - update `~/.dotfiles/README.markdown` with anything missing from the list above
 - get some work done
 
@@ -169,6 +166,7 @@ bubble bath.
   grc`.
 - If you install the excellent [rbenv](https://github.com/sstephenson/rbenv) to
   manage multiple rubies, your current branch will show up in the prompt. Bonus.
+  Replaced with RVM. - JW
 
 ## bugs
 
