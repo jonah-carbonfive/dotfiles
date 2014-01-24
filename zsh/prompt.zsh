@@ -41,12 +41,7 @@ need_push () {
 }
 
 rb_prompt(){
-  if $(rvm info &> /dev/null)
-  then
-	  echo "%{$fg_bold[yellow]%}$(rvm current | awk '{print $1}')%{$reset_color%}"
-	else
-	  echo ""
-  fi
+  echo "%{$fg_bold[yellow]%}ruby-$(ruby --version | awk '{print $2}')%{$reset_color%}"
 }
 
 # This keeps the number of todos always available the right hand side of my
