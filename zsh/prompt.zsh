@@ -41,7 +41,8 @@ need_push () {
 }
 
 rb_prompt(){
-  echo "%{$fg_bold[yellow]%}ruby-$(ruby --version | awk '{print $2}')%{$reset_color%}"
+  chruby_auto
+  echo "%{$fg_bold[yellow]%}ruby-$RUBY_VERSION%{$reset_color%}"
 }
 
 # This keeps the number of todos always available the right hand side of my
