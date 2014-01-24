@@ -1,5 +1,4 @@
 {
-	"theme": "Soda Dark.sublime-theme",
 	"draw_white_space": "selection",
 	"font_size": 14.0,
 	"highlight_modified_tabs": true,
@@ -17,6 +16,7 @@
 	"save_on_focus_lost": true,
 	"show_minimap": false,
 	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_start_in_command_mode": true
