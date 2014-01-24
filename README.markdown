@@ -52,10 +52,10 @@ Setting up a new development system for my use at Carbon Five still requires a f
       sublime2/setup
       ```
 
-- install RVM and a current ruby
+- install chruby and a current ruby
 
     ```sh
-    curl -L https://get.rvm.io | bash -s stable
+    brew install chruby
     ```
 
 - install postgres
