@@ -8,3 +8,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Node modules path and module executables
 export NODE_PATH="/usr/local/lib/node_modules"
 PATH=$PATH:/usr/local/share/npm/bin
+
+# OCLint release candidate
+PATH=$HOME/Applications/oclint-0.8/bin:$PATH
