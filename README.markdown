@@ -56,6 +56,8 @@ Setting up a new development system for my use at Carbon Five still requires a f
 
     ```sh
     brew install chruby
+    brew install ruby-install
+    ruby-install ruby
     ```
 
 - install postgres
