@@ -1,1 +1,1 @@
-export EDITOR='subl -wn'
+export EDITOR="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl -wn"
